@@ -4,15 +4,6 @@ PowerNap is a Python-based system that intelligently predicts idle periods on a 
 
 This project demonstrates a real-world application of data science in operating systems, helping extend battery life without user intervention.
 
-## Screenshots
-
-**PowerNap Home Page**
-![Data Collection](dashboard.jpeg)
-
-**Visuals**
-![Resource Usage](dashboard-cont.jpeg)
-![Graphs](visuals.jpeg)
-
 ---
 
 ## Features
