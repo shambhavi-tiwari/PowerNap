@@ -1,21 +1,24 @@
-MIT License
+Setup and Installation
 
-Copyright (c) 2025 Shambhavi Tiwari
+1. Clone the Repository
+git clone https://github.com/shambhavi-tiwari/PowerNap.git
+cd PowerNap
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+2. Install Dependencies
+Make sure you have Python 3.10+ installed. Then run:
+```bash
+pip install -r requirements.txt
+```
+3. Run the Application
+Start the Streamlit app:
+```bash
+streamlit run app.py
+```
+4. View in Browser
+Once started, Streamlit will automatically open a local browser window at:
+```bash
+http://localhost:8501
+```
+If not, you can manually visit that URL.
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+Check out the deployed project here: https://powernap.streamlit.app/
