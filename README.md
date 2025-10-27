@@ -1,10 +1,11 @@
 Setup and Installation
 
 1. Clone the Repository
+```bash
 git clone https://github.com/shambhavi-tiwari/PowerNap.git
 cd PowerNap
-
-2. Install Dependencies
+```
+3. Install Dependencies
 Make sure you have Python 3.10+ installed. Then run:
 ```bash
 pip install -r requirements.txt
